@@ -1,4 +1,4 @@
-# Fine-tune YOLOv4 for Traffic Object Detection
+<h1 align="center">Fine-tune YOLOv4 for Traffic Object Detection</h1> 
 
 ### Context
 There are a lot of traffic congestion and road accidents that happen in the city due to a lack of planning and understanding of the usage of the traffic in different situations. The idea is to collect useable data about traffic in a given city and understand the types of vehicles and traffic signs on the street as well as traffic usage for better city road planning. 
@@ -14,3 +14,5 @@ YOLO is an algorithm that uses neural networks to provide real-time object detec
 `yolov4_webcam_traffic.ipynb` - Using the weights calulcated from previous step, use it to run the model on a webcam to check the results
 
 ### Results
+![RoadTruck](results/car_truckpredictions.jpg)
+![TrafficLight](results/traffic_lightpredictions.jpg)
