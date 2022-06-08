@@ -10,8 +10,11 @@ YOLO is an algorithm that uses neural networks to provide real-time object detec
 `Explore_COCO_Dataset.ipynb` - Data exploration and category details for the COCO dataset that was used to pre-train the YOLOv4 model
 
 `YOLO_Traffic_Detection.ipynb` - Notebook that calculates the weights from existing pre-trained YOLO model for the custom classes specific for road traffic objects
+- `yolov4-obj_3.cfg` - The custom configuration used to fine-tune the YOLOv4 model 
+- `obj_classes.names` - A text file that contains the names of classes that the model is being fine-tuned to
 
 `yolov4_webcam_traffic.ipynb` - Using the weights calulcated from previous step, use it to run the model on a webcam to check the results
+
 
 ### Results
 ![RoadTruck](results/car_truckpredictions.jpg)
